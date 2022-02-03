@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+
+#eye {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+
+#eye2 {
+  fill: white;
+  opacity: 0.5;
+}
+
+#eye3 {
+  fill: white;
+  opacity: 0.5;
+}
+
+#eye4 {
+  fill: white;
+  opacity: 0.5;
+}
+
+#eye5 {
+  opacity: 0;
+  animation: blinking 1.5s ease-in 1.5s infinite alternate;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.eyelashes {
+  stroke: black;
+  stroke-width: 3;
+}
+#line {
+  stroke: green;
+  stroke-width: 10;
+}
+
+.body {
+  fill: chartreuse;
+  stroke: green;
+  stroke-width: 5;
+}
+
+#leg {
+  stroke: green;
+  stroke-width: 15;
+}
+
+.shoes {
+  fill: rgb(243, 9, 165);
+}
+
+.shoes1 {
+  fill: white;
+}
+
+.smile {
+  fill: burlywood;
+  stroke: black;
+  stroke-width: 3;
+}
+
+.text {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  fill: orangered;
+}
+
+.arm {
+  fill: chartreuse;
+  stroke: green;
+  stroke-width: 5;
+}
+
+.fingers {
+  stroke: green;
+  stroke-width: 1;
+}
+
+.nose {
+  fill: rgb(24, 88, 24);
+}
